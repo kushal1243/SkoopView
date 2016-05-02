@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		827318E51CD7332B00F3F65F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827318E41CD7332B00F3F65F /* main.m */; };
+		827318E81CD7332B00F3F65F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 827318E71CD7332B00F3F65F /* AppDelegate.m */; };
+		827318EB1CD7332B00F3F65F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827318EA1CD7332B00F3F65F /* ViewController.m */; };
+		827318EE1CD7332B00F3F65F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827318EC1CD7332B00F3F65F /* Main.storyboard */; };
+		827318F11CD7332B00F3F65F /* SkoopView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 827318EF1CD7332B00F3F65F /* SkoopView.xcdatamodeld */; };
+		827318F31CD7332B00F3F65F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827318F21CD7332B00F3F65F /* Assets.xcassets */; };
+		827318F61CD7332B00F3F65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827318F41CD7332B00F3F65F /* LaunchScreen.storyboard */; };
+		827319011CD7332C00F3F65F /* SkoopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 827319001CD7332C00F3F65F /* SkoopViewTests.m */; };
+		8273190C1CD7332C00F3F65F /* SkoopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8273190B1CD7332C00F3F65F /* SkoopViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		827318FD1CD7332C00F3F65F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827318D81CD7332A00F3F65F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827318DF1CD7332B00F3F65F;
+			remoteInfo = SkoopView;
+		};
+		827319081CD7332C00F3F65F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827318D81CD7332A00F3F65F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827318DF1CD7332B00F3F65F;
+			remoteInfo = SkoopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		827318E01CD7332B00F3F65F /* SkoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		827318E41CD7332B00F3F65F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		827318E61CD7332B00F3F65F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		827318E71CD7332B00F3F65F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		827318E91CD7332B00F3F65F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		827318EA1CD7332B00F3F65F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		827318ED1CD7332B00F3F65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		827318F01CD7332B00F3F65F /* SkoopView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkoopView.xcdatamodel; sourceTree = "<group>"; };
+		827318F21CD7332B00F3F65F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		827318F51CD7332B00F3F65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		827318F71CD7332B00F3F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827318FC1CD7332C00F3F65F /* SkoopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkoopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		827319001CD7332C00F3F65F /* SkoopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkoopViewTests.m; sourceTree = "<group>"; };
+		827319021CD7332C00F3F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827319071CD7332C00F3F65F /* SkoopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkoopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8273190B1CD7332C00F3F65F /* SkoopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkoopViewUITests.m; sourceTree = "<group>"; };
+		8273190D1CD7332C00F3F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		827318DD1CD7332B00F3F65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827318F91CD7332C00F3F65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827319041CD7332C00F3F65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		827318D71CD7332A00F3F65F = {
+			isa = PBXGroup;
+			children = (
+				827318E21CD7332B00F3F65F /* SkoopView */,
+				827318FF1CD7332C00F3F65F /* SkoopViewTests */,
+				8273190A1CD7332C00F3F65F /* SkoopViewUITests */,
+				827318E11CD7332B00F3F65F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		827318E11CD7332B00F3F65F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827318E01CD7332B00F3F65F /* SkoopView.app */,
+				827318FC1CD7332C00F3F65F /* SkoopViewTests.xctest */,
+				827319071CD7332C00F3F65F /* SkoopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827318E21CD7332B00F3F65F /* SkoopView */ = {
+			isa = PBXGroup;
+			children = (
+				827318E61CD7332B00F3F65F /* AppDelegate.h */,
+				827318E71CD7332B00F3F65F /* AppDelegate.m */,
+				827318E91CD7332B00F3F65F /* ViewController.h */,
+				827318EA1CD7332B00F3F65F /* ViewController.m */,
+				827318EC1CD7332B00F3F65F /* Main.storyboard */,
+				827318F21CD7332B00F3F65F /* Assets.xcassets */,
+				827318F41CD7332B00F3F65F /* LaunchScreen.storyboard */,
+				827318F71CD7332B00F3F65F /* Info.plist */,
+				827318EF1CD7332B00F3F65F /* SkoopView.xcdatamodeld */,
+				827318E31CD7332B00F3F65F /* Supporting Files */,
+			);
+			path = SkoopView;
+			sourceTree = "<group>";
+		};
+		827318E31CD7332B00F3F65F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				827318E41CD7332B00F3F65F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		827318FF1CD7332C00F3F65F /* SkoopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				827319001CD7332C00F3F65F /* SkoopViewTests.m */,
+				827319021CD7332C00F3F65F /* Info.plist */,
+			);
+			path = SkoopViewTests;
+			sourceTree = "<group>";
+		};
+		8273190A1CD7332C00F3F65F /* SkoopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8273190B1CD7332C00F3F65F /* SkoopViewUITests.m */,
+				8273190D1CD7332C00F3F65F /* Info.plist */,
+			);
+			path = SkoopViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827318DF1CD7332B00F3F65F /* SkoopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827319101CD7332C00F3F65F /* Build configuration list for PBXNativeTarget "SkoopView" */;
+			buildPhases = (
+				827318DC1CD7332B00F3F65F /* Sources */,
+				827318DD1CD7332B00F3F65F /* Frameworks */,
+				827318DE1CD7332B00F3F65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkoopView;
+			productName = SkoopView;
+			productReference = 827318E01CD7332B00F3F65F /* SkoopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		827318FB1CD7332C00F3F65F /* SkoopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827319131CD7332C00F3F65F /* Build configuration list for PBXNativeTarget "SkoopViewTests" */;
+			buildPhases = (
+				827318F81CD7332C00F3F65F /* Sources */,
+				827318F91CD7332C00F3F65F /* Frameworks */,
+				827318FA1CD7332C00F3F65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				827318FE1CD7332C00F3F65F /* PBXTargetDependency */,
+			);
+			name = SkoopViewTests;
+			productName = SkoopViewTests;
+			productReference = 827318FC1CD7332C00F3F65F /* SkoopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		827319061CD7332C00F3F65F /* SkoopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827319161CD7332C00F3F65F /* Build configuration list for PBXNativeTarget "SkoopViewUITests" */;
+			buildPhases = (
+				827319031CD7332C00F3F65F /* Sources */,
+				827319041CD7332C00F3F65F /* Frameworks */,
+				827319051CD7332C00F3F65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				827319091CD7332C00F3F65F /* PBXTargetDependency */,
+			);
+			name = SkoopViewUITests;
+			productName = SkoopViewUITests;
+			productReference = 827319071CD7332C00F3F65F /* SkoopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827318D81CD7332A00F3F65F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SkoopView;
+				TargetAttributes = {
+					827318DF1CD7332B00F3F65F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					827318FB1CD7332C00F3F65F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 827318DF1CD7332B00F3F65F;
+					};
+					827319061CD7332C00F3F65F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 827318DF1CD7332B00F3F65F;
+					};
+				};
+			};
+			buildConfigurationList = 827318DB1CD7332A00F3F65F /* Build configuration list for PBXProject "SkoopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 827318D71CD7332A00F3F65F;
+			productRefGroup = 827318E11CD7332B00F3F65F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				827318DF1CD7332B00F3F65F /* SkoopView */,
+				827318FB1CD7332C00F3F65F /* SkoopViewTests */,
+				827319061CD7332C00F3F65F /* SkoopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827318DE1CD7332B00F3F65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827318F61CD7332B00F3F65F /* LaunchScreen.storyboard in Resources */,
+				827318F31CD7332B00F3F65F /* Assets.xcassets in Resources */,
+				827318EE1CD7332B00F3F65F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827318FA1CD7332C00F3F65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827319051CD7332C00F3F65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827318DC1CD7332B00F3F65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827318EB1CD7332B00F3F65F /* ViewController.m in Sources */,
+				827318F11CD7332B00F3F65F /* SkoopView.xcdatamodeld in Sources */,
+				827318E81CD7332B00F3F65F /* AppDelegate.m in Sources */,
+				827318E51CD7332B00F3F65F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827318F81CD7332C00F3F65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827319011CD7332C00F3F65F /* SkoopViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827319031CD7332C00F3F65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8273190C1CD7332C00F3F65F /* SkoopViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		827318FE1CD7332C00F3F65F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 827318DF1CD7332B00F3F65F /* SkoopView */;
+			targetProxy = 827318FD1CD7332C00F3F65F /* PBXContainerItemProxy */;
+		};
+		827319091CD7332C00F3F65F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 827318DF1CD7332B00F3F65F /* SkoopView */;
+			targetProxy = 827319081CD7332C00F3F65F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		827318EC1CD7332B00F3F65F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827318ED1CD7332B00F3F65F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		827318F41CD7332B00F3F65F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827318F51CD7332B00F3F65F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8273190E1CD7332C00F3F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8273190F1CD7332C00F3F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		827319111CD7332C00F3F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkoopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoopview.SkoopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		827319121CD7332C00F3F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkoopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoopview.SkoopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		827319141CD7332C00F3F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkoopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoopview.SkoopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkoopView.app/SkoopView";
+			};
+			name = Debug;
+		};
+		827319151CD7332C00F3F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkoopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoopview.SkoopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkoopView.app/SkoopView";
+			};
+			name = Release;
+		};
+		827319171CD7332C00F3F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkoopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoopview.SkoopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkoopView;
+			};
+			name = Debug;
+		};
+		827319181CD7332C00F3F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkoopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoopview.SkoopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkoopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		827318DB1CD7332A00F3F65F /* Build configuration list for PBXProject "SkoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8273190E1CD7332C00F3F65F /* Debug */,
+				8273190F1CD7332C00F3F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827319101CD7332C00F3F65F /* Build configuration list for PBXNativeTarget "SkoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827319111CD7332C00F3F65F /* Debug */,
+				827319121CD7332C00F3F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		827319131CD7332C00F3F65F /* Build configuration list for PBXNativeTarget "SkoopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827319141CD7332C00F3F65F /* Debug */,
+				827319151CD7332C00F3F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		827319161CD7332C00F3F65F /* Build configuration list for PBXNativeTarget "SkoopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827319171CD7332C00F3F65F /* Debug */,
+				827319181CD7332C00F3F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		827318EF1CD7332B00F3F65F /* SkoopView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				827318F01CD7332B00F3F65F /* SkoopView.xcdatamodel */,
+			);
+			currentVersion = 827318F01CD7332B00F3F65F /* SkoopView.xcdatamodel */;
+			path = SkoopView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 827318D81CD7332A00F3F65F /* Project object */;
+}
